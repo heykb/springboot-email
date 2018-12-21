@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>邮箱验证</title>
+</head>
+<div style="margin:0 auto; width:648px; height:605px; border:1px solid #00A0E9;">
+    <div style="font-size: 26px; width: 100%; text-align: center; margin-top: 60px">欢迎加入我们的民宿</div>
+    <div style="font-size: 16px; width: 100%; margin-top: 137px; margin-left: 72px; color: #777777">
+        您申请的邮箱验证码为（1小时内有效）：
+    </div>
+    <div id="verification-code"  th:text="${valicode}"
+         style="margin: 63px auto 0 auto; background-color: #00A0E9; width: 206px; height: 53px; color: #FFFFFF; font-size: 26px; text-align: center; line-height: 53px">
+    </div>
+    <div style="margin:120px auto 0 auto;width: 520px; height: 1px; background: #BFBFBF; opacity: 0.34;"></div>
+    <div style="margin:45px auto 45px auto; width: 462px; height: 14px; font-size: 14px; color: #777777">
+        为了您的账户安全，请不要把验证码告知他人，如非本人操作请忽略此邮件
+    </div>
+</div>
+</html>
