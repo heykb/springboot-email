@@ -16,16 +16,16 @@ public class MailServiceImplTest {
 
     @Test
     public void testSimpleMail(){
-        mailService.sendSimpleEmail("1259609102@qq.com","简单邮件","你好啊a");
+        mailService.sendSimpleEmail("ssss@qq.com","简单邮件","你好啊a");
     }
     @Test
     public void sendAttachmentsMail() {
-        mailService.sendAttachmentsMail("1259609102@qq.com","简单邮件","<html><body>这是有图片的邮件：<img src='cid:3' ></body></html>","C:\\Users\\LY\\Desktop\\homestay-system.zip");
+        mailService.sendAttachmentsMail("sss@qq.com","简单邮件","<html><body>这是有图片的邮件：<img src='cid:3' ></body></html>","C:\\Users\\LY\\Desktop\\homestay-system.zip");
     }
     @Test
     public void testValicodeMail()
     {
-        mailService.sendvalicodeEmail("1259609102@qq.com","f54fd1");
+        mailService.sendvalicodeEmail("ssss@qq.com","f54fd1");
     }
 
 }
